@@ -14,6 +14,7 @@
 		F07BFBF529DB0D4B0043404B /* UniversityMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BFBF429DB0D4B0043404B /* UniversityMapTests.swift */; };
 		F07BFBFF29DB0D4B0043404B /* UniversityMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BFBFE29DB0D4B0043404B /* UniversityMapUITests.swift */; };
 		F07BFC0129DB0D4B0043404B /* UniversityMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BFC0029DB0D4B0043404B /* UniversityMapUITestsLaunchTests.swift */; };
+		F07BFC0E29DB10DC0043404B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BFC0D29DB10DC0043404B /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F07BFBFA29DB0D4B0043404B /* UniversityMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversityMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07BFBFE29DB0D4B0043404B /* UniversityMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityMapUITests.swift; sourceTree = "<group>"; };
 		F07BFC0029DB0D4B0043404B /* UniversityMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F07BFC0D29DB10DC0043404B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				F07BFBE329DB0D490043404B /* UniversityMapApp.swift */,
 				F07BFBE529DB0D490043404B /* ContentView.swift */,
+				F07BFC0D29DB10DC0043404B /* Model.swift */,
 				F07BFBE729DB0D4B0043404B /* Assets.xcassets */,
 				F07BFBE929DB0D4B0043404B /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07BFC0E29DB10DC0043404B /* Model.swift in Sources */,
 				F07BFBE629DB0D490043404B /* ContentView.swift in Sources */,
 				F07BFBE429DB0D490043404B /* UniversityMapApp.swift in Sources */,
 			);
